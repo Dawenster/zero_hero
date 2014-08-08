@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.0.0'
-gem 'gdata'
+gem 'google-api-client'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg'
@@ -15,7 +15,6 @@ group :doc do
 end
 
 group :development do
-  gem 'spring'
 end
 
 # Use ActiveModel has_secure_password
