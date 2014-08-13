@@ -1,2 +1,5 @@
 div
-  | Welcome to Zero Hero
+  | Welcome to ZeroHero
+- if user_signed_in?
+  div
+    = "You have #{@count} emails in your inbox!"
