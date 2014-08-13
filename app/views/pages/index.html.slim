@@ -2,4 +2,4 @@ div
   | Welcome to ZeroHero
 - if user_signed_in?
   div
-    = "You have #{@count} emails in your inbox!"
+    = "You have #{@count} email #{'thread'.pluralize(@count)} in your inbox!"
